@@ -53,7 +53,7 @@ def find_routes(find_diagonal):
                     if grid[y][x] == 2:
                         converging_lines += 1
 
-    print("converging lines:", converging_lines)
+    return print("converging lines:", converging_lines)
 
 
 # part one:
